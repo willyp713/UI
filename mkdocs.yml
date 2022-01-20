@@ -26,6 +26,7 @@ extra_css:
 
 theme:
   name: "material"
+  # custom_dir: "overrides"
   language: "en"
   font:
     text: "Roboto"
@@ -58,6 +59,8 @@ theme:
 markdown_extensions:
   - "meta"
   - "pymdownx.superfences"
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -91,3 +94,6 @@ markdown_extensions:
 plugins:
   - "search"
   - "awesome-pages"
+  - macros:
+      include_yaml:
+        - card_templates: "data/card_templates.yaml"
