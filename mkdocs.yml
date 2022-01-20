@@ -12,10 +12,14 @@ edit_uri: "edit/dev/docs"
 nav:
   - Home: "index.md"
   - Setup:
+      - Download: "setup/download.md"
       - Installation: "setup/installation.md"
       - Configuration: "setup/configuration.md"
   - "... | usage/**/*.md"
-  - "... | development/**/*.md"
+  - Development:
+      - Card Style Guide: "development/card_style_guide.md"
+      - Docs Style Guide: "development/docs_style_guide.md"
+      - Custom-Cards: "development/custom_cards.md"
 
 extra_css:
   - "assets/stylesheets/extra.css"

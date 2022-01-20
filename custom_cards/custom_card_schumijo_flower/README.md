@@ -1,5 +1,7 @@
 ---
 title: card_flower
+hide:
+  - toc
 ---
 <!-- markdownlint-disable MD046 -->
 
@@ -7,7 +9,7 @@ title: card_flower
 
 This is a `custom-card` to display a plant entity. Shows state of the plant and attributes.
 
-![Generic](../docs/assets/img/flower.png)
+![Generic](../../docs/assets/img/flower.png)
 
 ## Credits
 

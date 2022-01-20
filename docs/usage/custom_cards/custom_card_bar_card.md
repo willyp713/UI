@@ -1,5 +1,7 @@
 ---
 title: custom_card_bar_card
+hide:
+  - toc
 ---
 <!-- markdownlint-disable MD046 -->
 
@@ -7,7 +9,7 @@ title: custom_card_bar_card
 
 This is a `custom-card` to display a percentage value as a bar.
 
-![Screenshot](../docs/assets/img/screenshot_bar_card.png)
+![Screenshot](../../assets/img/screenshot_bar_card.png)
 
 ## Credits
 

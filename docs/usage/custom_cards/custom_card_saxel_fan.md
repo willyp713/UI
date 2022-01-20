@@ -1,5 +1,7 @@
 ---
 title: custom_card_saxel_fan_blue
+hide:
+  - toc
 ---
 <!-- markdownlint-disable MD046 -->
 
@@ -14,11 +16,11 @@ This is a _custom card_ to control a fan. It allows you to turn on/off the fan, 
 
 #### Light theme
 
-![Light theme](../docs/assets/img/custom_fan_light_theme.png)
+![Light theme](../../assets/img/custom_fan_light_theme.png)
 
 #### Dark theme
 
-![Dark theme](../docs/assets/img/custom_fan_dark_theme.png)
+![Dark theme](../../assets/img/custom_fan_dark_theme.png)
 
 ## Credits
 

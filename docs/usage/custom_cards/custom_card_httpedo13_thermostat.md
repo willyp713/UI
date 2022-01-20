@@ -1,5 +1,7 @@
 ---
 title: custom_card_httpedo13_thermostat_with_buttons
+hide:
+  - toc
 ---
 <!-- markdownlint-disable MD046 -->
 
@@ -23,15 +25,15 @@ Initial release
 
 ## Images
 
-![thermostat_white_collapse](../docs/assets/img/thermostat_white_collapse.png)
+![thermostat_white_collapse](../../assets/img/thermostat_white_collapse.png)
 
-![thermostat_white](../docs/assets/img/thermostat_white.png)
+![thermostat_white](../../assets/img/thermostat_white.png)
 
-![thermostat_white_with_heating_ui](../docs/assets/img/thermostat_white_with_heating_ui.png)
+![thermostat_white_with_heating_ui](../../assets/img/thermostat_white_with_heating_ui.png)
 
-![thermostat_dark](../docs/assets/img/thermostat_dark.png)
+![thermostat_dark](../../assets/img/thermostat_dark.png)
 
-![thermostat_dark_with_heating_ui](../docs/assets/img/thermostat_dark_with_heating_ui.png)
+![thermostat_dark_with_heating_ui](../../assets/img/thermostat_dark_with_heating_ui.png)
 
 ## Usage
 

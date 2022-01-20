@@ -1,5 +1,7 @@
 ---
 title: custom_card_httpedo13_sun
+hide:
+  - toc
 ---
 <!-- markdownlint-disable MD046 -->
 
@@ -42,7 +44,7 @@ This card uses:
 
 ## Images
 
-![Generic](../docs/assets/img/sun-card.png)
+![Generic](../../docs/assets/img/sun-card.png)
 
 ## Usage
 
