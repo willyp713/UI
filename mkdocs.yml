@@ -12,10 +12,14 @@ edit_uri: "edit/dev/docs"
 nav:
   - Home: "index.md"
   - Setup:
+      - Download: "setup/download.md"
       - Installation: "setup/installation.md"
       - Configuration: "setup/configuration.md"
   - "... | usage/**/*.md"
-  - "... | development/**/*.md"
+  - Development:
+      - Card Style Guide: "development/card_style_guide.md"
+      - Docs Style Guide: "development/docs_style_guide.md"
+      - Custom-Cards: "development/custom_cards.md"
 
 extra_css:
   - "assets/stylesheets/extra.css"
@@ -25,7 +29,7 @@ theme:
   # custom_dir: "overrides"
   language: "en"
   font:
-    text: "Comfortaa"
+    text: "Roboto"
   logo: "assets/logos/website_logo.png"
   favicon: "assets/logos/favicon/favicon-32x32.png"
   palette:
@@ -43,8 +47,9 @@ theme:
     - "navigation.instant"
     - "navigation.tracking"
     - "navigation.top"
+    - "navigation.tabs"
     - "navigation.indexes"
-    - "toc.integrate"
+#     - "toc.integrate"
     - "search.suggest"
     - "search.highlight"
     - "search.share"
@@ -80,6 +85,11 @@ markdown_extensions:
   - "def_list"
   - toc:
       permalink: true
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: "monokai"
 
 plugins:
   - "search"
